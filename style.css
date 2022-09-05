@@ -80,3 +80,22 @@ footer {
 footer p {
     font-size: 10px;
 } 
+
+@media(max-width:600px){
+    .slide-content span {
+        font-size: 2rem;
+    }
+
+    .arrow {
+        margin-top: -10px;
+    }
+
+    #arrow-left {
+        border-width: 10px 20px 10px 0;
+    }
+    
+    #arrow-right {
+        border-width: 10px 0 10px 20px;
+    }
+    
+}
